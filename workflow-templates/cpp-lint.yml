@@ -1,0 +1,19 @@
+name: Lint C++ Code
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Lint C++ Code
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install clang-format
+        run: sudo apt-get install -y clang-format
+      - name: Run clang-format
+        run: |
+          find . -name '*.cpp' -o -name '*.h' | xargs clang-format -i
+      - name: Check formatting
+        run: |
+          find . -name '*.cpp' -o -name '*.h' | xargs clang-format --dry-run --Werror
