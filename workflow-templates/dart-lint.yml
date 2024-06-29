@@ -1,0 +1,17 @@
+name: Lint Dart Code
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Lint Dart Code
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
+      - name: Install dependencies
+        run: dart pub get
+      - name: Run dart analyze
+        run: dart analyze
