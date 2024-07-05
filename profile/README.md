@@ -38,14 +38,14 @@ Microcontrollers and Autonomy Research And Development, commonly known as M&A R&
 
 ## Contribution Guidelines
 - **General Workflow:**
-  1. **Fork the Repository:**
+  1. **Fork the Repository (optional, may be skipped):**
      - Navigate to the repository you want to contribute to.
      - Click the "Fork" button at the top right to create your own copy of the repository.
   2. **Create a Branch:**
      - From your forked repository, create a new branch for your feature or bugfix.
      - Naming convention for branches: `feature/<description>` or `bugfix/<description>`.
   3. **Write Meaningful Commits:**
-     - Use [semantic commit messages](https://seesparkbox.com/foundry/semantic_commit_messages):
+     - Use [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716):
        - `feat`: A new feature.
        - `fix`: A bug fix.
        - `docs`: Documentation only changes.
