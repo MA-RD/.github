@@ -115,6 +115,11 @@ Microcontrollers and Autonomy Research And Development, commonly known as M&A R&
 - **Documentation:**
   - Maintain thorough documentation for all projects.
   - Use GitHub Wikis or a documentation generator like Sphinx for Python or Doxygen for C++.
+ 
+## Resources
+
+- (GitHub&Git with SSH guide)[https://docs.github.com/en/authentication/connecting-to-github-with-ssh]
+- (GitHub&Git documentation)[https://docs.github.com/en]
 
 ## License
 - All projects are proprietary unless otherwise specified.
